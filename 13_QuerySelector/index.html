@@ -47,6 +47,36 @@
         console.log(change_name2)
         change_name2.innerHTML = "Your name using id selector"
 
+
+        const change_name3 = document.querySelector(".paragraph")
+        console.log(change_name3.innerHTML) //Here we fetch html using the class
+        
+
+        /*
+        If we need to make changes or get only the text then we need to use the .innerText rather than .innerHTML
+        using .innerText is the professional way to do
+        */
+
+        change_name3.innerText = "<h1>We Hacked your website !!</h1>"  //this is the wrong way to do here we need to use .innerHTML
+
+
+        //If we want get the parent or child of any tag then perform these steps
+
+        console.log(change_name3.parentElement) //gives the parent Elements
+        console.log(document.querySelector("body").childElementCount) //gives the number of child
+        
+
+        //Usage of .querySelectorAll - gives a array of all
+
+        const ele = document.querySelectorAll(".block")
+        console.log(ele)
+
+        //printing code inside it using the arrow function studied earlier if you follow this repo
+
+        ele.forEach((e)=>{
+            console.log(e.innerHTML)
+        })
+
         
 
     </script>
