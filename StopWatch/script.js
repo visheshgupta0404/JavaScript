@@ -1,3 +1,4 @@
+console.log("Makimg timer in using this code")
 let sec =0
 const timerButton = document.getElementById("timerButton")
 
