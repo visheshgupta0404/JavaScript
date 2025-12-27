@@ -1,0 +1,25 @@
+
+let numbers = {
+    start: 1,
+    end: 5
+};
+
+numbers[Symbol.iterator] = function () {
+    let current = this.start;
+    let last = this.end;
+
+    return {
+        next: function () {
+            if (current <= last) {
+                return { value: current++, done: false };
+            } else {
+                return { done: true };
+            }
+        }
+    };
+};
+
+
+for (let num of numbers) {
+    document.write(num + "<br>");
+}
