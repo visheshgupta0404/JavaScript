@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Iterator Example</title>
+</head>
+<body>
+
+    <h2>JavaScript Iterator (Two Files)</h2>
+
+    <!-- Link JavaScript file -->
+    <script src="script.js"></script>
+
+</body>
+</html>
