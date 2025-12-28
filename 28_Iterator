@@ -8,7 +8,7 @@
     <h2>JavaScript Iterator (Two Files)</h2>
 
     <!-- Link JavaScript file -->
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 
 </body>
 </html>
