@@ -1,9 +1,9 @@
-function makeIterator (start = 0 , noOFSteps = Infinity  , step = 1){
+function makeIterator (start = 0 , end = Infinity  , step = 1){
     let nextStep  = start;
     let iteratorCount = 0
     return{
         next(){
-        if(iteratorCount < noOFSteps){
+        if(nextStep < end){
             let result =  {value : nextStep , done :false}
             nextStep+=step
             iteratorCount++
@@ -16,7 +16,7 @@ function makeIterator (start = 0 , noOFSteps = Infinity  , step = 1){
     } 
 }
 
-let input = "10:5:2"
+let input = "5:10:3"
 let num = input.split(":")
 let start = Number(num[0])
 let numOfSteps = Number(num[1])
