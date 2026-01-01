@@ -1,4 +1,4 @@
-console.log("Heyy Welcome to my Color Changing Game")
+console.log("Heyy Welcome to my Color Toggle Game")
 const ele = document.getElementById("ClickButton")
 const but = document.getElementById("but")
 console.log(ele.style.color = "red")
