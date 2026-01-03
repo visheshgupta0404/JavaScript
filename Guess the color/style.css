@@ -1,0 +1,28 @@
+#heading{
+    margin-bottom: 40px;
+    display: flex;
+    text-decoration:underline dashed rgb(231, 6, 6);
+    margin-left: 30vw ;
+}
+#color_container{
+    margin-top: 30px;
+    margin-left: 30vw ;
+}
+
+#score{
+    font-style: italic;
+    font-weight: 900;
+}
+
+#options_container{
+    display: flex;
+    
+}
+
+#options_container >div{
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    margin: 20px;
+    
+}
